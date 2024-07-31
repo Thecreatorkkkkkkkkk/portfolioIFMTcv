@@ -33,3 +33,52 @@ body{
     margin: 0;
     padding: 0;
 }
+
+#menu li{
+    display: inline-block;
+    margin-left: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    width: 114px;
+    height: 24px;
+    top: 49px;
+    left: 974px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+
+img{
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+}
+
+#cabecalhocta h1{
+    font-family: Poppins;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 82.5px;
+    text-align: left;
+    
+    color: #070F18;
+}
+
+p.texto{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+color: #575455;
+
+}
+
+#cabecalhoimg{
+    margin-left: 42px;
+    border-radius: 50%;
+}
+
+#cabecalhoimg img{
+    width: 100%
+}

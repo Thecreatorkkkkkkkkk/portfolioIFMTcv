@@ -2,20 +2,30 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <!--configura a codifigação de caracteres do documento, UTF-8 é uma codificação 
+    de caracteres que pode representar quase todos símbolos do mundo.-->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Isso permite que a página seja compatível com a internet explorer-->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- A tag meta viewport, que é essencial para o design responsivo de sites.
+     Define a largura da página para ser igual à largura da tela do dispositivo.
+     Um valor de 1.0 significa que a página será exibida sem zoom. -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <title>Portifolio</title>
-    <link href="style.css">
+    <link rel="stylesheet" href="style.css" >
 </head>
+
 <body>
     <!-- Deferindo a barra de navegação -->
     <div class="navegacao">
 
     
         <div class="titulo">
-        Portfolio
+            Portfolio
         </div>
 
         <div id="menu">
@@ -25,9 +35,19 @@
                 <li><a href="#portfoliotitle">Portfolio</a></li>
             </ul>
         </div>
-      
-  
-
+       
     </div>
+
+    <div class="navegacao">
+        <div id="cabecalhocta">
+            <h1>Olá, meu nome é Maria</h1>
+            <p class="texto">Sou um desenvolvedor front-end focado em JavaScript, HTML e CSS.</p>
+        </div>
+        
+        <div id="cabecalhoimg">
+           <img src="img/muie.jpg" alt="hehe">
+        </div>
+    </div>
+     
 </body>
 </html>
