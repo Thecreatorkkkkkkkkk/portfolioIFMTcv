@@ -48,12 +48,7 @@ body {
 }
 
 
-img {
-    width: 100%;
-    height: auto;
-    margin-left: 20px;
-    margin-top: 20px;
-}
+
 
 #cabecalhocta h1 {
     font-family: Poppins;
@@ -107,10 +102,7 @@ a {
 }
 
 
-#clientes{
-    margin-top:50px;
-    margin-bottom: 50px;
-}
+
 
 
 #cabecalhoclientexto {
@@ -120,4 +112,62 @@ a {
     line-height: 24px;
     text-align: left;
     color: #070F18;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+ 
 }
+
+#cabecalhoclientelogo{
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+ }
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo img{
+    width: 87.19px;
+    height: 30px;
+    top: 666px;
+    left: 638px;
+    gap: 0px;
+    opacity: 0px;
+    margin-right: 50px;
+    
+    }
+
+#red {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: #F75C4E;
+
+}
+
+#black{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: center;
+    color:black;
+}
+
+.gray{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    color: #575455;
+}
+
